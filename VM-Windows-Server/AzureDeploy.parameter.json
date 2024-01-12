@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "StorageAccountName": {
+            "type": "string",
+            "metadata": {
+                "description": "Enter the storage account name"
+            }
+        },
+        "AdminUserName": {
+            "type": "string",
+            "metadata": {
+                "description": "Enter the username"
+            }
+        },
+        "AdminPassword": {
+            "type": "securestring",
+            "metadata": {
+                "description": "Enter the password"
+            }
+        }
+    }
+}
